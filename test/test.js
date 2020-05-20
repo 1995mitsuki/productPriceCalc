@@ -3,6 +3,7 @@
 const productCalc = require('../');
 
 const sampleData1 = {
+  name: "パン",
   price: 100,
   type: "8%",
 };
@@ -11,6 +12,7 @@ const sampleData1_result = sampleData1
 sampleData1_result.priceIntax = 108;
 
 const sampleData2 = {
+  name: "本",
   price: 100,
   type: "10%",
 };
