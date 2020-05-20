@@ -7,7 +7,7 @@
  */
 
 function productPriceCalc(productInfo) {
-  let taxRate = productInfo.type === "8%" ? 1.08 : 1.1;
+  let taxRate = productInfo.productType === "8%" ? 1.08 : 1.1;
   productInfo.priceIntax = Math.floor(productInfo.price * taxRate);
 
   return productInfo;

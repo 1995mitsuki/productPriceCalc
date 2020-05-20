@@ -5,7 +5,7 @@ const productCalc = require('../');
 const sampleData1 = {
   name: "パン",
   price: 100,
-  type: "8%",
+  productType: "8%",
 };
 // 消費税込みの価格を追加
 const sampleData1_result = sampleData1
@@ -14,7 +14,7 @@ sampleData1_result.priceIntax = 108;
 const sampleData2 = {
   name: "本",
   price: 100,
-  type: "10%",
+  productType: "10%",
 };
 
 const sampleData2_result = sampleData2
