@@ -28,7 +28,7 @@ jobs:
           name: Run tests with JUnit as reporter
           command: npx jest --ci --runInBand --reporters=default --reporters=jest-junit
           environment:
-            JEST_JUNIT_OUTPUT_DIR: "./reports/junit/test-results.xml"
+            JEST_JUNIT_OUTPUT_DIR: ./reports/junit/
           when: always
       - store_test_results:
            path: ./reports/junit/
