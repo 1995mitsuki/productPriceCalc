@@ -7,6 +7,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "jest": "25.1.0"
+    "jest": "25.1.0",
+    "jest-junit": "10.0.0"
   }
 }
